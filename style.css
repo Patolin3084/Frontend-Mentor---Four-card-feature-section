@@ -19,7 +19,7 @@ h2{
     color: hsl(212, 6%, 44%);
     font-size: 23px;
 }
-h1,h3{
+h1, .titulo{
     font-family: Poppins;
     font-weight: 600;
     color: hsl(234, 12%, 34%);
@@ -78,13 +78,15 @@ img{
     align-self: center;
     border-color: hsl(212, 86%, 64%);
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media  screen and (max-width:375px) {
-    .container1{
-
-    }
     .container2{
         flex-wrap: wrap;
     }
