@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: Poppins;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+.container1{
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    font-family: Poppins;
+    font-weight: 400;
+    color: hsl(212, 6%, 44%);
+    font-size: 23px;
+}
+h1,h3{
+    font-family: Poppins;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 24px;
+}
+p{
+    font-family: Poppins;
+    font-weight: 200;
+    color: hsl(212, 6%, 44%);
+    font-size: 15px;
+    max-width: 500px;
+    align-self: center; 
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+#sup,#team,#karma,#calc{
+    background: hsl(0, 0%, 100%);
+  width: 250px;
+  height: 160px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+  border-top: 4px solid;
+  margin: 20px;  
+}
+p, .container2{
+    line-height: 20px;
+}
+img{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: 15px;
+    right: 15px;
+}
+#sup{
+    align-self: center;
+    border-color: hsl(180, 62%, 55%);
+}
+#row{
+    flex-direction: row;
+}
+#team{
+    align-self: flex-start;
+    border-color: hsl(0, 78%, 62%);
+}
+#karma{
+    align-self: flex-end;
+    border-color: hsl(34, 97%, 64%);
+}
+#calc{
+    align-self: center;
+    border-color: hsl(212, 86%, 64%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media  screen and (max-width:375px) {
+    .container1{
+
+    }
+    .container2{
+        flex-wrap: wrap;
+    }
+}
